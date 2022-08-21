@@ -1,91 +1,98 @@
 body {
-    text-align: center;
-    font-family: 'Happy Monkey', cursive;
-    background: #B8C0FF;
-    color: #FFF;
+  text-align: center;
+  font-family: "Happy Monkey", cursive;
+  background: #b8c0ff;
+  color: #fff;
 }
 
-h1, h2, h3, h4, p {
-    text-shadow: 0 0 1px black;
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0 0 1px black;
 }
 
+.header-title {
+  font-size: 40px;
+}
 #bff-img {
-    width: 150px;
-    border-radius: 50%;
-    border: 6px solid #E7C6FF;
-    margin-bottom: 10px;
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #e7c6ff;
+  margin-bottom: 10px;
 }
 
 #bday-age {
-    background: #E7C6FF;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin: 5px 0 10px 0;
+  background: #e7c6ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
 }
 
 #bday-date {
-    margin: 0;
-    background: #E7C6FF;
-    padding: 5px 10px;
-    border-radius: 5px;
+  margin: 0;
+  background: #e7c6ff;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 #header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .gift-section {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .gift-title {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .gift-hint {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .gift-img {
-    margin: 20px auto;
-    max-width: 400px;
-    height: 400px;
-    border: 6px solid white;
-    border-radius: 10px;
-    background-image: url("https://images.unsplash.com/photo-1517210122415-b0c70b2a09bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
-    background-size: cover;
+  margin: 20px auto;
+  max-width: 400px;
+  height: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-image: url("https://images.unsplash.com/photo-1517210122415-b0c70b2a09bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+  background-size: cover;
 }
 
 #gift-img-happy:hover {
-    background-image: url("https://media4.giphy.com/media/l3vRb0h4CyTKpwo8w/giphy.gif?cid=ecf05e475atnh4uvn69nm8z0zeddu3ykpajy1mw9t0frv4hy&rid=giphy.gif&ct=g");
+  background-image: url("https://media4.giphy.com/media/l3vRb0h4CyTKpwo8w/giphy.gif?cid=ecf05e475atnh4uvn69nm8z0zeddu3ykpajy1mw9t0frv4hy&rid=giphy.gif&ct=g");
 }
 
 #gift-img-hot:hover {
-    background-image: url("https://media0.giphy.com/media/WYEWpk4lRPDq0/giphy.gif?cid=ecf05e47hwkz5v71dmk3hc35kzliqd202cahoi6hgnbqkgpe&rid=giphy.gif&ct=g");
+  background-image: url("https://media0.giphy.com/media/WYEWpk4lRPDq0/giphy.gif?cid=ecf05e47hwkz5v71dmk3hc35kzliqd202cahoi6hgnbqkgpe&rid=giphy.gif&ct=g");
 }
 
 #gift-img-genius:hover {
-    background-image: url("https://media2.giphy.com/media/h59KcfRSfhMfQFUfnp/giphy.gif?cid=ecf05e476qoxv0uneoz7a80yy0jnoyrzoe2muux8xp5vz2d9&rid=giphy.gif&ct=g");
+  background-image: url("https://media2.giphy.com/media/h59KcfRSfhMfQFUfnp/giphy.gif?cid=ecf05e476qoxv0uneoz7a80yy0jnoyrzoe2muux8xp5vz2d9&rid=giphy.gif&ct=g");
 }
 
 #gift-img-badass:hover {
-    background-image: url("https://media4.giphy.com/media/QbGozU0tctbQ4/giphy.gif?cid=ecf05e47zxeb1s00ysg9xeuxybk7zqsgmaclcqpk3ubx54v6&rid=giphy.gif&ct=g");
+  background-image: url("https://media4.giphy.com/media/QbGozU0tctbQ4/giphy.gif?cid=ecf05e47zxeb1s00ysg9xeuxybk7zqsgmaclcqpk3ubx54v6&rid=giphy.gif&ct=g");
 }
 
 #gift-img-cheers:hover {
-    background-image: url("https://media1.giphy.com/media/qZLecn5oiepK8/giphy.gif?cid=ecf05e476pakbrip4sfodmuipfay6w166smr4n1mrq8wsu2q&rid=giphy.gif&ct=g");
+  background-image: url("https://media1.giphy.com/media/qZLecn5oiepK8/giphy.gif?cid=ecf05e476pakbrip4sfodmuipfay6w166smr4n1mrq8wsu2q&rid=giphy.gif&ct=g");
 }
 
 #footer {
-    font-style: italic;
-    width: 400px;
-    margin: 40px auto 20px;
+  font-style: italic;
+  width: 400px;
+  margin: 40px auto 20px;
 }
 
 a {
-    color: white;
+  color: white;
 }
 
 /* 
